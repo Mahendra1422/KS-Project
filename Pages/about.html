@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About - Bootstrap Project</title>
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+        <img src="../assets/MN Logo.png" alt="MN WebWorks logo" height="28" class="me-2">
+        MN WebWorks
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <div class="d-flex gap-2">
+          <a href="Auth/login.html" class="btn btn-outline-light">Login</a>
+          <a href="Auth/signup.html" class="btn btn-primary">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+
+  <!-- Hero Section -->
+  <section class="bg-primary bg-gradient text-light text-center py-5">
+    <div class="container">
+      <h1 class="display-4">About Us</h1>
+      <p class="lead mb-0">Learn more about our services and what we offer.</p>
+    </div>
+  </section>
+
+  <!-- Breadcrumbs -->
+  <nav class="container" aria-label="breadcrumb">
+    <ol class="breadcrumb my-3">
+      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">About</li>
+    </ol>
+  </nav>
+
+  <!-- Services / Features Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="display-6 fw-bold mb-3">Services We Offer</h2>
+        <p class="text-muted mb-0">From concept to delivery, we cover all your web needs</p>
+      </div>
+      <div class="row text-center g-4 row-cols-1 row-cols-md-3">
+        <div class="col">
+          <div class="card equal-card shadow-sm">
+            <img src="../assets/WebDesign.webp" class="card-img-top" alt="Web Design">
+            <div class="card-body">
+              <h5 class="card-title">Web Design</h5>
+              <p class="card-text">Modern, responsive, and clean design solutions for your projects.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card equal-card shadow-sm">
+            <img src="../assets/Development.jpg" class="card-img-top" alt="Development">
+            <div class="card-body">
+              <h5 class="card-title">Development</h5>
+              <p class="card-text">Efficient and reliable code using only Bootstrap 5 and best practices.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card equal-card shadow-sm">
+            <img src="../assets/Consulting.jpg" class="card-img-top" alt="Consulting">
+            <div class="card-body">
+              <h5 class="card-title">Consulting</h5>
+              <p class="card-text">Expert advice on UI/UX and building responsive, user-friendly websites.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Partners Section -->
+<section class="py-5 partners-section">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="display-6 fw-bold mb-3 text-gradient">Our Partners</h2>
+      <p class="text-muted mb-0">We collaborate with trusted brands across industries (sample logos)</p>
+    </div>
+    <div class="row g-4 row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 justify-content-center">
+      <div class="col"><div class="partner-card"><img src="https://dummyimage.com/140x60/d9e3f0/000&text=Acme" alt="Acme"></div></div>
+      <div class="col"><div class="partner-card"><img src="https://dummyimage.com/140x60/ececec/000&text=Globex" alt="Globex"></div></div>
+      <div class="col"><div class="partner-card"><img src="https://dummyimage.com/140x60/f5f5f5/000&text=Initech" alt="Initech"></div></div>
+      <div class="col"><div class="partner-card"><img src="https://dummyimage.com/140x60/eaeaea/000&text=Umbrella" alt="Umbrella"></div></div>
+      <div class="col"><div class="partner-card"><img src="https://dummyimage.com/140x60/f2f4f6/000&text=Stark" alt="Stark"></div></div>
+      <div class="col"><div class="partner-card"><img src="https://dummyimage.com/140x60/edf2f7/000&text=Wayne" alt="Wayne"></div></div>
+      <div class="col"><div class="partner-card"><img src="https://dummyimage.com/140x60/f8f9fa/000&text=Oscorp" alt="Oscorp"></div></div>
+      <div class="col"><div class="partner-card"><img src="https://dummyimage.com/140x60/ebf0f3/000&text=Wonka" alt="Wonka"></div></div>
+      <div class="col"><div class="partner-card"><img src="https://dummyimage.com/140x60/f4f6f8/000&text=Cyberdyne" alt="Cyberdyne"></div></div>
+      <div class="col"><div class="partner-card"><img src="https://dummyimage.com/140x60/eef2f5/000&text=Tyrell" alt="Tyrell"></div></div>
+      <div class="col"><div class="partner-card"><img src="https://dummyimage.com/140x60/f7f9fb/000&text=Sirius" alt="Sirius"></div></div>
+      <div class="col"><div class="partner-card"><img src="https://dummyimage.com/140x60/f3f5f7/000&text=LexCorp" alt="LexCorp"></div></div>
+    </div>
+  </div>
+</section>
+
+
+
+ <!-- Locations Section -->
+<section class="py-5 position-relative location-section" 
+         style="background: url('../assets/Map.webp') center/cover no-repeat;">
+  <div class="container position-relative" style="z-index: 2;">
+    <div class="text-center mb-5 text-white">
+      <h2 class="display-6 fw-bold mb-3">Shaping the Web From These Hubs</h2>
+      <p class="mb-0">We are present across multiple major cities of India</p>
+    </div>
+
+    <!-- First row (4 cities) -->
+    <div class="row g-4 text-center">
+      <div class="col-sm-6 col-md-3">
+        <div class="location-card"><h6>Bangalore</h6></div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="location-card"><h6>Hyderabad</h6></div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="location-card"><h6>Bhubaneswar</h6></div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="location-card"><h6>Kolkata</h6></div>
+      </div>
+    </div>
+
+    <!-- Second row (3 cities) -->
+    <div class="row g-4 text-center mt-3">
+      <div class="col-sm-6 col-md-4">
+        <div class="location-card"><h6>Gurugram</h6></div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="location-card"><h6>Delhi</h6></div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="location-card"><h6>Visakhapatnam</h6></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Overlay for readability -->
+  <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+</section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center p-4 mt-5">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 MN WebWorks. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
